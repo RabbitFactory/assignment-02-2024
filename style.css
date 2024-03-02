@@ -58,3 +58,32 @@ nav ul div li a:hover {
 #logo_text:hover {
     color: black;
 }
+
+.hamburger_menu {
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0px 30px;
+    }
+    .nav_right_side {
+        display: none;
+    }
+    .hamburger_menu {
+        display: flex;
+
+    }
+    .hamburger_menu i {
+        font-size: 2rem;
+    }
+
+}
+
+  
