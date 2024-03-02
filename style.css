@@ -1,0 +1,60 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header , main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+:root {
+    --primary_color: #ff5400;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    margin: 50px 0px;
+}
+nav ul div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul div li 
+{
+    list-style: none;
+}
+nav ul div li a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+nav span {
+    color: var(--primary_color);
+}
+
+nav ul div li a:hover {
+    color: var(--primary_color);
+}
+
+#logo_text {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#logo_text:hover {
+    color: black;
+}
