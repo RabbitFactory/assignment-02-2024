@@ -129,9 +129,26 @@ nav ul div li a:hover {
     color: #a1a1a1;
 }
 
+/* -------------------- popular --------*/
 
-
-
+.popular_container {
+    display: flex;
+    margin: 80px 0px;
+}
+.popular_container > div 
+{
+    width: 50%;
+}
+.popular_img_container 
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular_img_container img {
+    width: 100%;
+    padding-left: 100px;
+}
 
 
 
