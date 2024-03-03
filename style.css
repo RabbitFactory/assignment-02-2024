@@ -235,7 +235,7 @@ nav ul div li a:hover {
 }
 .grid_box_container img {
     width: 100%;
-    height: 100%;
+    height: 300px;
 }
 .grid_box_container {
     display: grid;
@@ -243,6 +243,148 @@ nav ul div li a:hover {
     grid-template-rows: 1fr 1fr 1fr;
     margin-top: 50px;
 }
+
+/*------- why choose us section ------  */
+
+.why_choose_us_container > p 
+{
+    color: #616161;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.why_choose_us_container > h1 {
+    font-size: 2rem;
+    margin: 70px 0px 40px 0px;
+    text-align: center;
+}
+.card {
+    padding: 30px;
+    border-radius: 15px;
+}
+.card_container {
+    display: flex;
+    gap: 20px;
+
+}
+.card_top_left {
+    background-color: #FFFBF7;
+}
+.card_top_right {
+    background-color: #F4FCFE;
+}
+.bottom_card {
+    background-color: #FEF5F5;
+    margin-top: 20px;
+    max-width: 600px;
+}
+.card h2 {
+    margin: 20px 0px;
+}
+.card img {
+    width: 70px;
+}
+.bottom_card_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+    height: 1000vh;
+}
+/* ----- vacation box ------ */
+
+.first_vacation_container {
+    background-image: url("Images/Group\ 39.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    height: 650px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.vacation_text_box {
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 60px;
+    margin: 60px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    display: grid;
+}
+.vacation_text_box p {
+    color: #616161;
+}
+.vacation_text_box button {
+    color: #fff;
+    background-color: var(--primary_color);
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    max-width: 200px;
+    max-height: 80px;                
+}
+
+.vacation_text_box h3 {
+    font-size: 1.5rem;
+    color: var(--primary_color);
+}
+
+.vacation_text_box h4 {
+    font-size: 2rem;
+}
+.vacation_text_box i {
+    color: var(--primary_color);
+    font-size: 1.2rem;
+}
+.icon_div {
+    display: flex;
+    align-items: center;
+}
+.icon_div p {
+    margin: 0px 30px 0px 10px;
+}
+.second_box {
+    justify-content: start;
+    background-image: url("Images/Group\ 40.png");
+}
+.see_all_package_btn {
+    color: #fff;
+    background-color: var(--primary_color);
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.see_all_package_btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals_container > h1 , .deals_container p {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 500px;
+}
+.deals_container {
+    margin-top: 100px;
+}
+.first_vacation_container {
+    margin-top: 50px;
+}
+.deals_container > h1 {
+    font-size: 2rem;
+}
+
+
+
+
+
 
 
 
@@ -323,7 +465,46 @@ nav ul div li a:hover {
         display: flex;
         flex-direction: column;
     }
-
+    .card_container {
+        flex-direction: column;
+    }
+    .vacation_text_box {
+        padding: 20px;
+        margin: 0;
+        height: 60%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .first_vacation_container {
+        padding: 16px;
+        align-items: end;
+        background-position: center;
+    }
+    .vacation_text_box button {
+        transform: scale(0.7);
+        position: relative;
+        left: -20px;
+    }
+    .vacation_text_box h3 {
+        transform: scale(0.8);
+        position: relative;
+        left: -10px;
+    }
+    .vacation_text_box h4 {
+        transform: scale(0.8);
+        position: relative;
+        left: -18px;
+    }
+    .icon_div {
+        flex-wrap: wrap;
+        
+    }
+    .vacation_text_box p 
+    {
+        max-width: 80%;
+        position: relative;
+        left: 10px;
+    }
 }
 
   
