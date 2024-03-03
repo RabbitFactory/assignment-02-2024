@@ -587,13 +587,31 @@ footer p
     max-width: 600px;
 }
 
-
-
-
-
-
-
-
+.my_box img {
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all ease 0.5s;
+}
+.my_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.my_box h1 {
+    font-size: 6rem;
+}
+.my_box i {
+    font-size: 5rem;
+    color: #ffac7c;
+}
+.title h1 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 4rem;
+}
+.my_box img:hover {
+    transform: scale(0.9);
+}
 
 
 
@@ -750,6 +768,12 @@ footer p
         font-size: 2rem;
         right: -215px;
         border-radius: 20px;
+    }
+    .my_box {
+       grid-template-columns: 1fr;
+    }
+    .my_box h1 {
+        font-size: 4rem;
     }
 }
 
