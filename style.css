@@ -93,6 +93,7 @@ nav ul div li a:hover {
 .banner_container p {
     color: #d8d8d8;
     text-align: center;
+    max-width: 600px;
 }
 
 .main_input_section {
@@ -249,6 +250,9 @@ nav ul div li a:hover {
     color: #616161;
     margin-bottom: 50px;
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .why_choose_us_container > h1 {
     font-size: 2rem;
@@ -300,6 +304,9 @@ nav ul div li a:hover {
     height: 650px;
     margin-bottom: 40px;
     border-radius: 20px;
+}
+.third-box{
+    background-image: url("Images/vacation.jpg");
 }
 .vacation_text_box {
     width: 600px;
@@ -441,7 +448,10 @@ video {
     font-size: 1.7rem;
     font-weight: 600;
 } 
-
+.video_text_box
+{
+    width: 50%;
+}
 
 
 
@@ -573,7 +583,9 @@ footer p
 
 
 
-
+.custom_case_one {
+    max-width: 600px;
+}
 
 
 
@@ -716,6 +728,9 @@ footer p
     .video_box {
         width: 100%;
         margin-top: 50px;
+    }
+    .video_text_box {
+        width: 100%;
     }
     .newsletter_container {
         flex-direction: column;
